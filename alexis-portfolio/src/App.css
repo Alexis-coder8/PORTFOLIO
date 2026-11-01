@@ -1,0 +1,98 @@
+/* =================================
+   1. COLOUR PALETTE
+================================= */
+
+:root {
+  --lavender: #c8b6e2;
+  --light-lavender: #f4effa;
+  --deep-lavender: #9275b5;
+  --white: #ffffff;
+  --dark: #292432;
+  --grey: #77717f;
+}
+
+/* =================================
+   2. GENERAL RESET
+================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =================================
+   3. WEBSITE FOUNDATION
+================================= */
+
+body {
+  background-color: var(--white);
+  color: var(--dark);
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* =================================
+   4. HEADINGS
+================================= */
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  color: var(--dark);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+/* =================================
+   5. LINKS
+================================= */
+
+a {
+  color: var(--deep-lavender);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark);
+}
+
+/* =================================
+   6. BUTTONS
+================================= */
+
+button {
+  background-color: var(--deep-lavender);
+  color: var(--white);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--dark);
+}
+
+/* =================================
+   7. TEXT SELECTION
+================================= */
+
+::selection {
+  background-color: var(--lavender);
+  color: var(--dark);
+}
