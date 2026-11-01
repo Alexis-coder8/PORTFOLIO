@@ -373,7 +373,7 @@ button:hover {
 /* Featured Projects */
 .project-number {
   color: var(--deep-lavender);
-  font-size: 0.85rem;
+  font-size: 1.25rem;
   font-weight: bold;
   letter-spacing: 2px;
 }
