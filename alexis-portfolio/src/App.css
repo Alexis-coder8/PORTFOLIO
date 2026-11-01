@@ -310,3 +310,37 @@ button:hover {
   font-weight: bold;
   letter-spacing: 0.5px;
 }
+
+/* NAVIGATION LINKS */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-links a {
+  color: var(--dark);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--deep-lavender);
+}
+
+/* MOBILE NAVIGATION */
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .nav-links {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

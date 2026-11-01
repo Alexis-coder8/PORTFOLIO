@@ -8,11 +8,20 @@ function App() {
 
       {/* Navigation */}
       <nav className="navbar">
-        <h1 className="logo">Alexis Portfolio</h1>
-      </nav>
+  <h1 className="logo">Alexis Portfolio</h1>
+
+  <div className="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </div>
+</nav>
 
       {/* Welcome Section */}
-      <section className="hero">
+      <section className="hero" id="home">
+
+        
         <p className="hero-greeting">WELCOME TO MY WORLD</p>
 
         <h2>
@@ -38,7 +47,7 @@ function App() {
       </section>
 
       {/* About Me */}
-      <section className="about">
+      <section className="about" id="about">
         <h2>About Me</h2>
 
         <p>
@@ -54,7 +63,7 @@ function App() {
       </section>
 
       {/* Skills */}
-      <section className="skills">
+      <section className="skills" id="skills">
         <h2>My Skills</h2>
 
         <div className="skill-cards">
