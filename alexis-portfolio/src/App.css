@@ -28,7 +28,7 @@
 body {
   background-color: var(--white);
   color: var(--dark);
-  font-family: Arial, sans-serif;
+  font-family: Arial, dancing-script, sans-serif;
   line-height: 1.7;
 }
 
