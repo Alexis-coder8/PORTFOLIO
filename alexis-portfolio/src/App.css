@@ -179,69 +179,31 @@ button:hover {
    12. SKILLS SECTION
 ================================= */
 
-.skills {
-  padding: 90px 8%;
-  background-color: var(--light-lavender);
-}
 
 .skill-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 18px;
-  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 22px;
+  margin-top: 35px;
 }
 
 .card {
-  padding: 25px 20px;
+  padding: 30px 20px;
   background-color: var(--white);
   border: 1px solid #eee8f5;
-  border-radius: 14px;
+  border-radius: 18px;
   text-align: center;
+  font-weight: bold;
+  color: var(--dark);
+  box-shadow: 0 4px 15px rgba(80, 50, 110, 0.04);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(80, 50, 110, 0.08);
+  transform: translateY(-7px);
+  box-shadow: 0 12px 25px rgba(80, 50, 110, 0.12);
 }
 
-/* =================================
-   13. FEATURED PROJECTS
-================================= */
-
-.projects {
-  padding: 90px 8%;
-  background-color: var(--white);
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 25px;
-  margin-top: 35px;
-}
-
-.project-card {
-  padding: 30px;
-  background-color: var(--light-lavender);
-  border: 1px solid #eee8f5;
-  border-radius: 16px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 28px rgba(80, 50, 110, 0.1);
-}
-
-.project-card h3 {
-  margin-bottom: 12px;
-  color: var(--deep-lavender);
-}
-
-.project-card p {
-  color: var(--grey);
-}
 
 /* =================================
    14. MOBILE RESPONSIVENESS
@@ -398,4 +360,12 @@ button:hover {
     grid-template-columns: 1fr;
     gap: 30px;
   }
+}
+.about-highlight {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-highlight:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(80, 50, 110, 0.1);
 }
