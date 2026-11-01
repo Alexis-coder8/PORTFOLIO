@@ -190,7 +190,7 @@ button:hover {
 .card {
   padding: 30px 20px;
   background-color: var(--white);
-  border: 1px solid #eee8f5;
+  border: 1px solid var(--light-lavender);
   border-radius: 18px;
   text-align: center;
   font-weight: bold;
