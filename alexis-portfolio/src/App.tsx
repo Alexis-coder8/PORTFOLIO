@@ -13,13 +13,17 @@ function App() {
 
       {/* Welcome Section */}
       <section className="hero">
+        <p className="hero-greeting">WELCOME TO MY WORLD</p>
+
         <h2>
-          Welcome to my Portfolio, You are about to Learn more About Alexis
+          Hello, I'm Alexis.
+          <span> A Future Doctor & Creative Developer.</span>
         </h2>
 
-        <p>
-          First-Year Pre-Med Student, Future Doctor,
-          and Aspiring Software Developer.
+        <p className="hero-description">
+          I'm a first-year Pre-Med Biochemistry student with a growing
+          passion for technology, creativity, and building meaningful
+          digital experiences.
         </p>
 
         <button
