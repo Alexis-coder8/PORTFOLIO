@@ -104,34 +104,66 @@ function App() {
       <section className="projects" id="projects">
         <h2>Featured Projects</h2>
 
-        <div className="project-grid">
+       
+<div className="project-grid">
 
-          <div className="project-card">
-            <h3>Luveria</h3>
-            <p>Luxury fashion and style app.</p>
-          </div>
+  <div className="project-card">
+    <span className="project-number">01</span>
+    <p className="project-category">FASHION & STYLE</p>
+    <h3>Luveria</h3>
+    <p>
+      A luxury fashion platform designed to inspire
+      personal style and explore fashion trends.
+    </p>
+    <span className="project-tag">Fashion App</span>
+  </div>
 
-          <div className="project-card">
-            <h3>CineVerse</h3>
-            <p>Movie discovery platform.</p>
-          </div>
+  <div className="project-card">
+    <span className="project-number">02</span>
+    <p className="project-category">ENTERTAINMENT</p>
+    <h3>CineVerse</h3>
+    <p>
+      A movie discovery platform for exploring films
+      and finding your next favourite movie.
+    </p>
+    <span className="project-tag">Movie App</span>
+  </div>
 
-          <div className="project-card">
-            <h3>GameVault</h3>
-            <p>Gaming news and community app.</p>
-          </div>
+  <div className="project-card">
+    <span className="project-number">03</span>
+    <p className="project-category">GAMING</p>
+    <h3>GameVault</h3>
+    <p>
+      A gaming platform featuring gaming news,
+      discoveries, and community experiences.
+    </p>
+    <span className="project-tag">Gaming App</span>
+  </div>
 
-          <div className="project-card">
-            <h3>MyDiary</h3>
-            <p>Personal journaling app.</p>
-          </div>
+  <div className="project-card">
+    <span className="project-number">04</span>
+    <p className="project-category">PERSONAL DEVELOPMENT</p>
+    <h3>MyDiary</h3>
+    <p>
+      A personal journaling application for recording
+      thoughts, reflections, and daily experiences.
+    </p>
+    <span className="project-tag">Journal App</span>
+  </div>
 
-          <div className="project-card">
-            <h3>StudyNova</h3>
-            <p>Exam preparation platform.</p>
-          </div>
+  <div className="project-card">
+    <span className="project-number">05</span>
+    <p className="project-category">EDUCATION</p>
+    <h3>StudyNova</h3>
+    <p>
+      An exam preparation platform designed to
+      support learning and effective studying.
+    </p>
+    <span className="project-tag">Education App</span>
+  </div>
 
-        </div>
+</div>
+
       </section>
 
     </div>

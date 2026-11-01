@@ -369,3 +369,39 @@ button:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 28px rgba(80, 50, 110, 0.1);
 }
+
+/* Featured Projects */
+.project-number {
+  color: var(--deep-lavender);
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.project-category {
+  color: var(--grey);
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 18px 0 10px;
+}
+
+.project-card h3 {
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  line-height: 1.8;
+}
+
+.project-tag {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 7px 15px;
+  background-color: var(--white);
+  color: var(--deep-lavender);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
