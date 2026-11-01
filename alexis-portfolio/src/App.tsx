@@ -46,21 +46,44 @@ function App() {
         </button>
       </section>
 
-      {/* About Me */}
-      <section className="about" id="about">
-        <h2>About Me</h2>
+      
+{/* About Me */}
+<section className="about" id="about">
+  <div className="about-content">
+    <div className="about-text">
+      <p className="section-label">GET TO KNOW ME</p>
+      <h2>A Little About Me</h2>
 
-        <p>
-          I am a dedicated first-year Pre-Med Biochemistry
-          student at the University of Regina with a growing
-          passion for technology and software development.
+      <p>
+        I am a first-year Pre-Med Biochemistry student
+        at the University of Regina with a growing
+        passion for technology and software development.
+      </p>
 
-          I am just beginning to explore the world of
-          technology. Through my projects, I combine creativity,
-          problem-solving, and design to build applications
-          that inspire, educate, and entertain.
-        </p>
-      </section>
+      <p>
+        I enjoy exploring new ideas, learning new skills,
+        and combining science with creativity to build
+        meaningful digital experiences.
+      </p>
+    </div>
+
+    <div className="about-highlight">
+      <h3>A Few Things About Me</h3>
+      <div className="highlight-item">
+        <span>01</span>
+        <p>Science & Biochemistry</p>
+      </div>
+      <div className="highlight-item">
+        <span>02</span>
+        <p>Technology & Development</p>
+      </div>
+      <div className="highlight-item">
+        <span>03</span>
+        <p>Creativity & Design</p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Skills */}
       <section className="skills" id="skills">
