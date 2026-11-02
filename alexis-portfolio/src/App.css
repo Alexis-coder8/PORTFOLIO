@@ -401,3 +401,14 @@ button:hover {
   font-weight: bold;
   font-family: "Dancing Script", cursive;
 }
+.card {
+  padding: 30px 20px;
+  background-color: var(--white);
+  border: 1px solid var(--light-lavender);
+  border-radius: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--dark);
+  box-shadow: 0 4px 15px rgba(80, 50, 110, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
