@@ -371,12 +371,6 @@ button:hover {
 }
 
 /* Featured Projects */
-.project-number {
-  color: var(--deep-lavender);
-  font-size: 1.25rem;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
 
 .project-category {
   color: var(--grey);
@@ -388,11 +382,12 @@ button:hover {
 
 .project-card h3 {
   font-size: 1.7rem;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .project-card p {
-  line-height: 1.8;
+  line-height: 5.0px;
+  color:rgb(67, 116, 159)
 }
 
 .project-tag {
