@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+
+  <circle cx="150" cy="140" r="125" fill="#F1DCE8"/>
+
+  <path d="M150 105
+           C125 85 85 85 65 100
+           V190
+           C95 175 125 180 150 200
+           C175 180 205 175 235 190
+           V100
+           C215 85 175 85 150 105Z"
+        fill="#A94F7D"/>
+
+  <path d="M150 105 V200"
+        stroke="#FCECF4"
+        stroke-width="5"
+        fill="none"/>
+
+  <path d="M85 120 H125 M85 140 H125 M175 120 H215 M175 140 H215"
+        stroke="#FCECF4"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+  <text x="150" y="250"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="27"
+        letter-spacing="3"
+        fill="#753653">MYDIARY</text>
+
+</svg>

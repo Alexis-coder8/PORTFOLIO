@@ -1,0 +1,63 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+
+  <circle cx="150" cy="145" r="130" fill="#F0EDFA"/>
+
+  <!-- Open book -->
+  <path d="M150 115
+           C125 95 90 95 65 110
+           V165
+           C100 150 130 155 150 175
+           C170 155 200 150 235 165
+           V110
+           C210 95 175 95 150 115Z"
+        fill="#FFFFFF"
+        stroke="#29345F"
+        stroke-width="5"
+        stroke-linejoin="round"/>
+
+  <path d="M150 115 V175"
+        stroke="#9275B5"
+        stroke-width="4"/>
+
+  <!-- Book details -->
+  <path d="M85 125 Q115 115 135 130
+           M85 140 Q115 130 135 145
+           M165 130 Q185 115 215 125
+           M165 145 Q185 130 215 140"
+        fill="none"
+        stroke="#B8A3D9"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!-- Graduation cap -->
+  <path d="M90 85 L150 55 L210 85 L150 110 Z"
+        fill="#29345F"/>
+
+  <path d="M195 92 V120"
+        stroke="#D5A83E"
+        stroke-width="4"/>
+
+  <circle cx="195" cy="124" r="5" fill="#D5A83E"/>
+
+  <!-- Brand name -->
+  <text x="150" y="225"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="27"
+        font-weight="bold"
+        letter-spacing="2"
+        fill="#29345F">STUDYNOVA</text>
+
+  <text x="150" y="248"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="10"
+        letter-spacing="4"
+        fill="#9275B5">LEARN • GROW • ACHIEVE</text>
+
+  <path d="M95 265 H205"
+        stroke="#D5A83E"
+        stroke-width="2"/>
+
+</svg>

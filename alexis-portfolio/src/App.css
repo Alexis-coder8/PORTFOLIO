@@ -370,45 +370,56 @@ button:hover {
   box-shadow: 0 12px 28px rgba(80, 50, 110, 0.1);
 }
 
-/* Featured Projects */
+
+/* FEATURED PROJECTS */
+
+.projects {
+  padding: 90px 8%;
+  background-color: var(--white);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-card {
+  padding: 35px;
+  background-color: var(--light-lavender);
+  border: 1px solid #eee8f5;
+  border-radius: 22px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 28px rgba(80, 50, 110, 0.1);
+}
 
 .project-category {
   color: var(--grey);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: bold;
   letter-spacing: 2px;
   margin: 18px 0 10px;
 }
 
 .project-card h3 {
-  font-size: 1.7rem;
-  margin-bottom: 20px;
+  font-size: 2rem;
+  margin-bottom: 15px;
 }
 
 .project-card p {
-  line-height: 5.0px;
-  color:rgb(67, 116, 159)
+  line-height: 1.7;
+  color: var(--grey);
 }
 
-.project-tag {
-  display: inline-block;
-  margin-top: 25px;
-  padding: 7px 15px;
-  background-color: var(--white);
-  color: var(--deep-lavender);
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: bold;
-  font-family: "Dancing Script", cursive;
-}
-.card {
-  padding: 30px 20px;
-  background-color: var(--white);
-  border: 1px solid var(--light-lavender);
-  border-radius: 18px;
-  text-align: center;
-  font-weight: bold;
-  color: var(--dark);
-  box-shadow: 0 4px 15px rgba(80, 50, 110, 0.04);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.project-logo {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 20px;
 }

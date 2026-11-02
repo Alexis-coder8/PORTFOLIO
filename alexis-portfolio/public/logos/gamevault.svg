@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <circle cx="150" cy="150" r="135" fill="#DCD0FA"/>
+
+  <path d="M85 115 Q85 90 110 90 H190 Q215 90 215 115 V185 Q215 210 190 210 H110 Q85 210 85 185 Z"
+        fill="#30266F"/>
+
+  <path d="M85 115 L105 145 H195 L215 115"
+        fill="#7154C8"/>
+
+  <path d="M125 135 L125 180 L170 157 Z"
+        fill="#FFFFFF"/>
+
+  <text x="150" y="245"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="25"
+        letter-spacing="3"
+        fill="#30266F">GAMEVAULT</text>
+</svg>
