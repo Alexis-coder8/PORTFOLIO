@@ -95,6 +95,7 @@
 
 .nav-links {
     list-style: none;
+    list-style-type: none;
     display: flex;
     align-items: center;
     gap: 35px;
@@ -102,7 +103,20 @@
     padding: 0;
 }
 
-.nav-links a {
+.nav-links li {
+    list-style: none;
+    list-style-type: none;
+}
+
+.nav-links li::marker {
+    content: "";
+}
+
+.nav-links a,
+.nav-links a:visited,
+.nav-links a:hover,
+.nav-links a:focus,
+.nav-links a:active {
     font-family: 'Poppins', sans-serif, Georgia;
     color: var(--wine-rose);
     font-size: 15px;

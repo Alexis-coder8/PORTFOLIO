@@ -279,12 +279,30 @@ button:hover {
   display: flex;
   align-items: center;
   gap: 35px;
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-links a {
+.nav-links li {
+  list-style: none;
+  list-style-type: none;
+}
+
+.nav-links li::marker {
+  content: "";
+}
+
+.nav-links a,
+.nav-links a:visited,
+.nav-links a:hover,
+.nav-links a:focus,
+.nav-links a:active {
   color: var(--dark);
   font-size: 0.95rem;
   font-weight: 500;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
