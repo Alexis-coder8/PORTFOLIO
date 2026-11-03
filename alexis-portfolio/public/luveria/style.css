@@ -96,15 +96,18 @@
 .nav-links {
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 35px;
+    margin: 0;
+    padding: 0;
 }
+
 .nav-links a {
-    font-family: 'Poppins', sans-serif, georgia;
-    color:var(--wine-rose);
-     font-size: 15px;
+    font-family: 'Poppins', sans-serif, Georgia;
+    color: var(--wine-rose);
+    font-size: 15px;
     font-weight: 500;
     text-decoration: none;
-
     transition: color 0.3s ease;
 }
 
