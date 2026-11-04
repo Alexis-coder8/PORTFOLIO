@@ -104,3 +104,17 @@
     background-color: var(--wine-rose);
     color: var(--white);
 }
+
+.outfit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.outfit-grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
+}
