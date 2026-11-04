@@ -288,3 +288,80 @@ body {
     border-radius: 20px;
 }
 
+/*----------------------------
+------------------------------
+       FOOTER SECTION
+------------------------------
+-----------------------------*/
+
+.footer{
+      background-color: #EBD5DC;
+      color:#722F45;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-section{
+     display:flexbox;
+     background-color: #EBD5DC;
+     color: #722F45;
+}
+
+/*------------------------
+--------------------------
+     ABOUT SECTION
+--------------------------
+------------------------*/
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    background-color: var(--pink-lavender);
+    color: var(--wine-rose);
+    font-weight: 500;
+    text-align: center;
+    padding: 90px 10%;
+}
+
+/*Small introductory label */
+.about-label {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    display: block;
+    color: var(--wine-rose);
+    letter-spacing: 4px;
+    margin-bottom: 18px;
+}
+
+/*Main About heading*/
+.about h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--wine-rose);
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+/* About Paragraph*/
+.about p {
+    max-width: 850px;
+    margin: 0 auto 25px;
+    font-size: 16px;
+    line-height: 2;
+    color: #722F45;
+}
+
+/*Closing brand slogan*/
+.about h3{
+    font-family: 'Playfair Display', serif;
+    color: var(--wine-rose);
+    background-color: #EBD5DC;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 45px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}

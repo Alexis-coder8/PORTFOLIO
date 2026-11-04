@@ -1,6 +1,13 @@
 const maleBtn= document.getElementById("male-btn");
 const femaleBtn= document.getElementById("female-btn");
 
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightbox-image");
+const closeLightbox = document.getElementById("close-lightbox");
+closeLightbox.addEventListener("click", function () {
+    lightbox.hidden = true;
+});
+
 const maleSection = document.getElementById("male-section");
 const femaleSection = document.getElementById("female-section");
 
@@ -54,6 +61,10 @@ function displayOutfits(images, section) {
 
         img.src = image;
         img.alt = "Fashion inspiration";
+     img.addEventListener("click", function(){
+        lightboxImage.src =image;
+        lightbox.hidden = false;    
+    })   
 
         outfitGrid.appendChild(img);
     })
