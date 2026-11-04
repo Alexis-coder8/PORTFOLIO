@@ -109,10 +109,11 @@ function App() {
 
   <div className="project-card">
     <img
-  src="/logos/luveria.svg"
-  alt="Luveria fashion logo"
-  className="project-logo"
-/>
+      src="/logos/luveria.svg"
+      alt="Luveria fashion logo"
+     className="project-logo"
+    />
+    <a href="/luveria/index.html">Explore LUVERIA</a>
     <h3>LUVERIA</h3>
     <p>
       A luxury fashion platform designed to inspire
