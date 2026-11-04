@@ -4,10 +4,29 @@ const femaleBtn= document.getElementById("female-btn");
 const maleSection = document.getElementById("male-section");
 const femaleSection = document.getElementById("female-section");
 
+const params = new URLSearchParams(window.location.search);
+
+let categoryKey = (params.get("category") || "").toLowerCase();
+
+const categoryAliases = {
+    "elegant-evening-wear": "evening-wear",
+    "fall-outfits": "fall-outfit"
+};
+
+categoryKey = categoryAliases[categoryKey] || categoryKey;
+
+const currentMaleImages = (maleOutfits[categoryKey] || [])
+    .map(image => `images/men/${image}`);
+
+const currentFemaleImages = (femaleOutfits[categoryKey] || [])
+    .map(image => `images/women/${image}`);
+
 // Show men's fashion
 maleBtn.addEventListener ("click", function () {
     maleSection.hidden = false;
     femaleSection.hidden = true;
+    
+    displayOutfits(currentMaleImages, maleSection);
 
     maleBtn.classList.add("active");
     femaleBtn.classList.remove("active");
@@ -19,7 +38,7 @@ femaleBtn.addEventListener("click", function () {
      femaleSection.hidden = false;
      
      displayOutfits(currentFemaleImages, femaleSection);
-     
+
      maleBtn.classList.remove("active");
      femaleBtn.classList.add("active");
 });
@@ -38,3 +57,4 @@ function displayOutfits(images, section) {
         outfitGrid.appendChild(img);
     })
 }
+displayOutfits(currentMaleImages, maleSection);

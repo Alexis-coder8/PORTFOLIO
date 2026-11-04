@@ -1,4 +1,4 @@
-const maleOutfit = {
+const maleOutfits = {
     "evening-wear": [
         "elegantmen.jpg",
         "elegantmen8(2).jpg"
@@ -106,7 +106,7 @@ const femaleOutfits = {
         "collegewomen88.jpg"
     ],
 
-    "old-school": [
+    "old-money": [
         "oldmoneywomen (3).jpg",
         "oldmoneywomen8.jpg"
     ],
