@@ -10,7 +10,8 @@ let categoryKey = (params.get("category") || "").toLowerCase();
 
 const categoryAliases = {
     "elegant-evening-wear": "evening-wear",
-    "fall-outfits": "fall-outfit"
+    "fall-outfits": "fall-outfit",
+    "old-school": "old-money"
 };
 
 categoryKey = categoryAliases[categoryKey] || categoryKey;

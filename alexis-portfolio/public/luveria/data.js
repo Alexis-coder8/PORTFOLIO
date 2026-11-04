@@ -36,13 +36,13 @@ const maleOutfits = {
 
     "college-style": [
         "collegemenwear44.JPG",
-        "collegewearmen(2).jpg",
+        "collegewearmen (2).jpg",
         "collegewearmen.jpg"
     ],
 
     "old-money": [
         "oldmoneymen3.jpg",
-        "oldmoneymen9(2).jpg",
+        "oldmoneymen9 (2).jpg",
         "oldmoneymen56.jpg"
     ],
 
@@ -94,7 +94,7 @@ const femaleOutfits = {
 
     "african-style": [
         "africanstyle.jpg",
-        "africanstylewomen(2).jpg",
+        "Africanstylewomen (2).jpg",
         "africanstylewomen.jpg"
     ],
 
@@ -125,26 +125,3 @@ const femaleOutfits = {
         "fallstyle53women.jpg"
     ]
 };
-
-// Get the selected category from the URL
-const params = new URLSearchParams(window.location.search);
-
-let categoryKey = (params.get("category") || "").toLowerCase();
-
-// Match older category names to our data.js keys
-const categoryAliases = {
-    "elegant-evening-wear": "evening-wear",
-    "fall-outfits": "fall-outfit"
-};
-
-categoryKey = categoryAliases[categoryKey] || categoryKey;
-
-// Get the images for the selected category
-const currentMaleImages = (maleOutfits[categoryKey] || [])
-    .map(image => `images/men/${image}`);
-
-const currentFemaleImages = (femaleOutfits[categoryKey] || [])
-    .map(image => `images/women/${image}`);
-
-// Display men's images first
-displayOutfits(currentMaleImages, maleSection);
