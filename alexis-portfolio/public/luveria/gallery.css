@@ -34,7 +34,7 @@
 
 /* CATEGORY CARDS */
 .category-card {
-    background-color: var(--white);
+    background-color: var(--pink-lavender);
     padding: 40px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -110,6 +110,7 @@
     grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
     gap: 25px;
     margin-top: 30px;
+    background-color: var(--deep-lavender);
 }
 
 .outfit-grid img {
